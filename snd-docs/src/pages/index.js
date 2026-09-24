@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
-import { Network as IconNetwork, BrainCircuit as IconBrain, BookOpen as IconBook, Users as IconUsers } from 'lucide-react';
+import { Network as IconNetwork, BookOpen as IconBook, Users as IconUsers } from 'lucide-react';
 import styles from './index.module.css';
 
 const IconGithub = ({ size }) => (
@@ -28,18 +28,6 @@ function Hero() {
         </div>
       </div>
     </header>
-  );
-}
-
-function Mission() {
-  return (
-    <section className={styles.mission}>
-      <div className={styles.missionIcon}><IconBrain size={44} /></div>
-      <h2>Our mission</h2>
-      <blockquote className={styles.quote}>
-        Turning natural language into deployed, validated network infrastructure.
-      </blockquote>
-    </section>
   );
 }
 
@@ -92,7 +80,6 @@ export default function Home() {
   return (
     <Layout title="Home" description="SND: Self Network Deployer">
       <Hero />
-      <Mission />
       <Cards />
       <Partners />
     </Layout>
