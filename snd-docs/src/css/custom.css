@@ -1,0 +1,122 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Purple-themed navbar to match the landing page */
+.navbar {
+  background: #17153a;
+}
+
+.navbar__link {
+  color: #ddd6fe;
+}
+
+.navbar__link:hover,
+.navbar__link--active {
+  color: #f0abfc !important;
+}
+
+.navbar__title {
+  color: #fff;
+}
+
+.navbar__toggle {
+  color: #ddd6fe;
+}
+
+/* Purple-themed footer to match the landing page */
+.footer--dark {
+  --ifm-footer-background-color: #17153a;
+  background: #17153a;
+}
+
+.footer--dark .footer__title {
+  color: #c4b5fd;
+}
+
+.footer--dark .footer__link-item {
+  color: #ddd6fe;
+}
+
+.footer--dark .footer__link-item:hover {
+  color: #f3e8ff;
+}
+
+.footer--dark .footer__copyright {
+  color: #a78bfa;
+}
+
+/* Center each footer column */
+.footer__col {
+  text-align: center;
+}
+
+.footer__items {
+  list-style: none;
+  padding: 0;
+}
+
+/* Partner logos strip, sits above the footer */
+.partners {
+  background: #12102e;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.partners__title {
+  color: #a5b4fc;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.partners__row {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.partners__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed rgba(165, 180, 252, 0.35);
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  min-width: 180px;
+  min-height: 60px;
+}
+
+.partners__logo img {
+  max-height: 36px;
+  max-width: 140px;
+}
