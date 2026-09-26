@@ -1,0 +1,15 @@
+.panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 1.5rem;
+  margin: 1.5rem 0 2rem;
+  border-radius: 16px;
+  background: #fff;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.panel img {
+  max-height: 72px;
+  max-width: 100%;
+}

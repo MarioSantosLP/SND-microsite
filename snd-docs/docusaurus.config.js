@@ -6,7 +6,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Self Network Deployer',
   tagline: 'Self Network Deployer project documentation',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   future: {
     v4: true,
@@ -19,6 +19,10 @@ const config = {
   projectName: 'docusaurus',
 
   onBrokenLinks: 'throw',
+
+  stylesheets: [
+    'https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap',
+  ],
 
   i18n: {
     defaultLocale: 'en',
@@ -54,7 +58,7 @@ const config = {
           style: 'dark',
           logo: {
             alt: 'Self Network Deployer',
-            src: 'img/logo.svg',
+            src: 'img/snd-logo-light.png',
 },
 
 
@@ -72,7 +76,7 @@ const config = {
 },
 {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'docsSidebar',
             label: 'Docs',
             position: 'left',
 },
@@ -102,8 +106,8 @@ const config = {
           {
             title: 'Team',
             items: [
-              { label: 'Francisco Santos', to: '#' },
               { label: 'Filipe Nogueira', to: '#' },
+              { label: 'Francisco Santos', to: '#' },
               { label: 'João Morais', to: '#' },
               { label: 'Mario Santos', to: '#' },
               { label: 'Samuel Ramos', to: '#' },
