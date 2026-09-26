@@ -1,0 +1,51 @@
+---
+title: Calendar
+sidebar_position: 8
+---
+
+import Timeline from '@site/src/components/Timeline';
+
+All dates are in 2026.
+
+<Timeline
+  entries={[
+    { milestone: 'MS1', title: 'Presentation', from: '29 Sep' },
+    {
+      phase: 'Elaboration',
+      items: [
+        { title: 'Requirements Assessment', from: '06 Oct', to: '13 Oct' },
+        { title: 'User Stories', from: '06 Oct', to: '13 Oct' },
+        { title: 'Use Cases', from: '06 Oct', to: '13 Oct' },
+        { title: 'System Architecture', from: '13 Oct', to: '20 Oct' },
+        { title: 'Data Model Definition', from: '13 Oct', to: '20 Oct' },
+        { title: 'Architecture Validation', from: '13 Oct', to: '20 Oct' },
+      ],
+    },
+    { milestone: 'MS2', title: 'Lifecycle Architecture Presentation / Validation', from: '13 Oct', to: '20 Oct' },
+    {
+      phase: 'Construction',
+      items: [
+        { title: 'Accessibility Requirements & User Interface Design', from: '27 Oct', to: '03 Nov' },
+        { title: 'Interface Prototype & Usability/Accessibility Evaluation', from: '03 Nov', to: '10 Nov' },
+      ],
+    },
+    { milestone: 'MS3', title: 'Digital Accessibility and Usability', from: '03 Nov', to: '10 Nov' },
+    {
+      phase: 'Construction',
+      items: [
+        { title: 'Existing LLM Integration', from: '10 Nov', to: '24 Nov' },
+        { title: 'Basic Open5GS Knowledge Base & RAG', from: '10 Nov', to: '24 Nov' },
+        { title: 'Basic 5G Network Data Model', from: '10 Nov', to: '24 Nov' },
+        { title: 'User Intent Processing', from: '10 Nov', to: '24 Nov' },
+        { title: 'Basic 5G Deployment Planner', from: '24 Nov', to: '07 Dec' },
+        { title: 'Open5GS Configuration Generation', from: '24 Nov', to: '07 Dec' },
+        { title: 'Basic Configuration Validation', from: '09 Dec', to: '14 Dec' },
+        { title: 'Basic Feedback & Error Handling', from: '09 Dec', to: '14 Dec' },
+        { title: 'Minimal API & User Interface', from: '09 Dec', to: '14 Dec' },
+        { title: 'Basic Logging', from: '09 Dec', to: '14 Dec' },
+        { title: 'MVP Integration & Testing', from: '14 Dec', to: '16 Dec' },
+      ],
+    },
+    { milestone: 'MS4', title: 'MVP Presentation with Supervisors & Peer Evaluation', from: '15 Dec', to: '16 Dec' },
+  ]}
+/>
