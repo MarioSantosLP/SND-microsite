@@ -27,24 +27,25 @@ function Hero() {
 }
 
 const cards = [
-  { title: 'GitHub', desc: 'Codebase, with project organization and issue tracking.', Icon: IconGithub },
-  { title: 'Documentation', desc: 'Architecture, milestones and deliverables.', Icon: IconBook },
-  { title: 'Team', desc: 'The people behind the agent, made without coffee.', Icon: IconUsers },
+  { title: 'GitHub', desc: 'Codebase, with project organization and issue tracking.', Icon: IconGithub, to: 'https://github.com/your-org/snd' },
+  { title: 'Documentation', desc: 'Architecture, milestones and deliverables.', Icon: IconBook, to: '/docs' },
+  { title: 'Team', desc: 'The people behind the agent, made without coffee.', Icon: IconUsers, to: '/team' },
 ];
 
 function Cards() {
   return (
     <section className={styles.cards}>
       {cards.map((c, i) => (
-        <div
+        <Link
           key={c.title}
+          to={c.to}
           className={styles.card}
           style={{ '--offset': i % 2 === 1 ? '24px' : '0px', animationDelay: `${i * 0.12}s` }}
         >
           <div className={styles.cardIcon}><c.Icon size={26} /></div>
           <h3>{c.title}</h3>
           <p>{c.desc}</p>
-        </div>
+        </Link>
       ))}
     </section>
   );
