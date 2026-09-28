@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import { useBaseUrlUtils } from '@docusaurus/useBaseUrl';
 import { Network as IconNetwork, BookOpen as IconBook, Users as IconUsers } from 'lucide-react';
 import IconGithub from '@site/src/components/IconGithub';
 import styles from './index.module.css';
@@ -58,13 +59,14 @@ const partners = [
 ];
 
 function Partners() {
+  const { withBaseUrl } = useBaseUrlUtils();
   return (
     <section className="partners">
       <div className="partners__title">In collaboration with</div>
       <div className="partners__row">
         {partners.map((p) => (
           <div key={p.name} className="partners__logo">
-            <img src={p.logo} alt={p.name} />
+            <img src={withBaseUrl(p.logo)} alt={p.name} />
           </div>
         ))}
       </div>

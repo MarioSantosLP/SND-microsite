@@ -12,11 +12,12 @@ const config = {
     v4: true,
 },
 
-  url: 'https://your-docusaurus-site.example.com',
-  baseUrl: '/',
+  url: 'https://mariosantoslp.github.io',
+  baseUrl: '/SND-microsite/',
+  trailingSlash: false,
 
-  organizationName: 'facebook',
-  projectName: 'docusaurus',
+  organizationName: 'MarioSantosLP',
+  projectName: 'SND-microsite',
 
   onBrokenLinks: 'throw',
 
