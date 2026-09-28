@@ -20,4 +20,4 @@ Configuring complex networks is a very manual and slow process.
 ## Softwarization and growing network complexity
 
 - The shift to software-based networks makes them more adaptable, but increases the number of configurations and interactions to manage.
-- Deploying, configuring and maintaining several systems manually becomes difficult as the network grows.
+- Deploying and configuring several systems manually becomes difficult as the network grows.
