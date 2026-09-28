@@ -95,7 +95,7 @@ const config = {
           {
             title: 'More',
             items: [
-              { label: 'GitHub', href: 'https://github.com/your-org/snd' },
+              { label: 'GitHub', href: 'https://github.com/MarioSantosLP/SND' },
             ],
           },
           {
@@ -107,7 +107,7 @@ const config = {
           {
             title: 'Team',
             items: [
-              { label: 'Filipe Nogueira', to: '#' },
+              { label: 'Filipe Nogueira', href: 'https://github.com/FilipeNogue1ra' },
               { label: 'Francisco Santos', href: 'https://github.com/Kikokikolas' },
               { label: 'João Morais', href: 'https://github.com/Bruhlin' },
               { label: 'Mario Santos', href: 'https://github.com/MarioSantosLP' },

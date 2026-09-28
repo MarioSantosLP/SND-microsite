@@ -18,7 +18,7 @@ function Hero() {
         <p>An AI agent that learns from technical docs to instantiate, configure and operate network infrastructure — through natural language.</p>
         <div className={styles.buttons}>
           <Link className="button button--lg" to="/docs">View the docs</Link>
-          <Link className={styles.ghostLink} to="https://github.com/your-org/snd">
+          <Link className={styles.ghostLink} to="https://github.com/MarioSantosLP/SND">
             <IconGithub size={18} /> GitHub
           </Link>
         </div>
@@ -28,7 +28,7 @@ function Hero() {
 }
 
 const cards = [
-  { title: 'GitHub', desc: 'Codebase, with project organization and issue tracking.', Icon: IconGithub, to: 'https://github.com/your-org/snd' },
+  { title: 'GitHub', desc: 'Codebase, with project organization and issue tracking.', Icon: IconGithub, to: 'https://github.com/MarioSantosLP/SND' },
   { title: 'Documentation', desc: 'Architecture, milestones and deliverables.', Icon: IconBook, to: '/docs' },
   { title: 'Team', desc: 'The people behind the agent, made without coffee.', Icon: IconUsers, to: '/team' },
 ];
