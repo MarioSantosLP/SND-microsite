@@ -5,9 +5,9 @@ sidebar_position: 5
 
 ## Goals
 
-- **AI-assisted infrastructure:** develop an AI agent that helps create, configure and operate network and computing infrastructure, reducing the need for manual configuration.
+- **AI-assisted infrastructure:** develop an AI agent that helps create and configure network and computing infrastructure, reducing the need for manual configuration.
 - **Natural language requests:** let users describe the infrastructure or scenario they want in plain language, and turn that request into the required configurations and actions.
-- **Learning from documentation:** have the agent learn how to operate each system from manuals, technical and API documentation, configuration templates and examples, so it can adapt to different equipment and systems and professionals can focus on the network's requirements.
+- **Learning from documentation:** have the agent learn how to configure each system from manuals, technical and API documentation, configuration templates and examples, so it can adapt to different systems and professionals can focus on the network's requirements.
 - **Validation and self-correction:** validate the generated configurations and actions against the infrastructure's dependencies and constraints, and feed any errors back to correct the process.
 - **Reusable configurations:** store generated networks and configurations so they can be reused later, saving the deployer from rebuilding them from scratch.
 
