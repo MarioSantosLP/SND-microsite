@@ -1,0 +1,154 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+/* Purple palette, shared with the landing page */
+:root {
+  --ifm-color-primary: #6d28d9;
+  --ifm-color-primary-dark: #6224c3;
+  --ifm-color-primary-darker: #5d22b8;
+  --ifm-color-primary-darkest: #4c1c98;
+  --ifm-color-primary-light: #7c3aed;
+  --ifm-color-primary-lighter: #8b5cf6;
+  --ifm-color-primary-lightest: #a78bfa;
+  --ifm-font-family-base: 'Outfit', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --ifm-heading-font-weight: 600;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-menu-color-background-active: rgba(124, 58, 237, 0.08);
+  --ifm-menu-color-background-hover: rgba(124, 58, 237, 0.05);
+}
+
+/* Dark mode: deep purple instead of black, so the page blends with the navbar and footer */
+[data-theme='dark'] {
+  --ifm-color-primary: #a78bfa;
+  --ifm-color-primary-dark: #9775f9;
+  --ifm-color-primary-darker: #8f6af8;
+  --ifm-color-primary-darkest: #7648f6;
+  --ifm-color-primary-light: #b7a1fb;
+  --ifm-color-primary-lighter: #bfacfc;
+  --ifm-color-primary-lightest: #d7cdfd;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-background-color: #100e26;
+  --ifm-background-surface-color: #1a1740;
+  --ifm-toc-border-color: rgba(167, 139, 250, 0.12);
+  --ifm-hr-border-color: rgba(167, 139, 250, 0.12);
+  --ifm-color-emphasis-200: rgba(167, 139, 250, 0.16);
+  --ifm-color-emphasis-300: rgba(167, 139, 250, 0.24);
+  --ifm-menu-color-background-active: rgba(167, 139, 250, 0.12);
+  --ifm-menu-color-background-hover: rgba(167, 139, 250, 0.07);
+}
+
+/* Sidebar */
+.theme-doc-sidebar-container {
+  border-right-color: var(--ifm-toc-border-color) !important;
+}
+
+.menu__link,
+.menu__caret {
+  border-radius: 8px;
+}
+
+.menu__link {
+  font-size: 0.93rem;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  font-weight: 600;
+}
+
+/* Purple-themed navbar to match the landing page */
+.navbar {
+  background: #17153a;
+}
+
+.navbar__link {
+  color: #ddd6fe;
+}
+
+.navbar__link:hover,
+.navbar__link--active {
+  color: #f0abfc !important;
+}
+
+.navbar__title {
+  color: #fff;
+}
+
+.navbar__toggle {
+  color: #ddd6fe;
+}
+
+/* Purple-themed footer to match the landing page */
+.footer--dark {
+  --ifm-footer-background-color: #17153a;
+  background: #17153a;
+}
+
+.footer--dark .footer__title {
+  color: #c4b5fd;
+}
+
+.footer--dark .footer__link-item {
+  color: #ddd6fe;
+}
+
+.footer--dark .footer__link-item:hover {
+  color: #f3e8ff;
+}
+
+.footer--dark .footer__copyright {
+  color: #a78bfa;
+}
+
+/* Center each footer column */
+.footer__col {
+  text-align: center;
+}
+
+.footer__items {
+  list-style: none;
+  padding: 0;
+}
+
+/* Partner logos strip, sits above the footer */
+.partners {
+  background: #12102e;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.partners__title {
+  color: #a5b4fc;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.partners__row {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.partners__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed rgba(165, 180, 252, 0.35);
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  min-width: 180px;
+  min-height: 60px;
+}
+
+.partners__logo img {
+  max-height: 36px;
+  max-width: 140px;
+}
