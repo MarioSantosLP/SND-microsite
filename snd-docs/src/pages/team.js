@@ -9,11 +9,11 @@ import styles from './team.module.css';
 // Photos go in static/img/team/ and are referenced as `photo: '/img/team/name.jpg'`.
 // Until then, a generic avatar is shown.
 const members = [
-  { name: 'Filipe Nogueira' },
-  { name: 'Francisco Santos', github: 'https://github.com/Kikokikolas' },
-  { name: 'João Morais', github: 'https://github.com/Bruhlin' },
-  { name: 'Mario Santos', github: 'https://github.com/MarioSantosLP' },
-  { name: 'Samuel Ramos', github: 'https://github.com/samuelmarcosramos' },
+  { name: 'Filipe Nogueira', photo: '/img/team/filipe-nogueira.webp' },
+  { name: 'Francisco Santos', photo: '/img/team/francisco-santos.webp', github: 'https://github.com/Kikokikolas' },
+  { name: 'João Morais', photo: '/img/team/joao-morais.webp', github: 'https://github.com/Bruhlin' },
+  { name: 'Mario Santos', photo: '/img/team/mario-santos.webp', github: 'https://github.com/MarioSantosLP' },
+  { name: 'Samuel Ramos', photo: '/img/team/samuel-ramos.webp', github: 'https://github.com/samuelmarcosramos' },
 ];
 
 const supervisors = [
