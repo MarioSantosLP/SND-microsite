@@ -21,6 +21,7 @@ sidebar_custom_props:
 |:---------|:-----------|
 | Paulo Cunha | ATNoG |
 | Tiago Barros | ATNoG |
+| David Santos | ATNoG |
 | Francisco Santos | Membro da equipa |
 | João Morais | Membro da equipa |
 | Mario Santos | Membro da equipa |
@@ -32,6 +33,7 @@ sidebar_custom_props:
 ### ATNoG
 - Paulo Cunha
 - Tiago Barros
+- David Santos
 
 ### Membros da equipa
 - Filipe Nogueira
@@ -44,13 +46,13 @@ sidebar_custom_props:
 - Trabalho a realizar na fase inicial do projeto.
 - Implementação e compreensão de redes 5G com **Open5GS** ou **free5GC**.
 - Possíveis personas do sistema e forma de levantar os requisitos.
-- Discussão sobre o trabalho do Paulo Cunha numa interface gráfica para a execução de experiências no testbed, com o qual o projeto irá interagir numa fase posterior.
+- Discussão sobre o trabalho do Paulo Cunha numa interface gráfica para a execução de experiências no testbed, com o qual o projeto poderá interagir numa fase posterior.
 - Arquitetura do sistema e recursos disponíveis para a equipa.
 
 ## Principais conclusões
 - Nesta fase inicial, a equipa deverá focar-se em implementar e compreender redes 5G, utilizando o Open5GS ou o free5GC.
 - Deverá ser utilizada a versão mais recente do core escolhido, mantendo-a fixa durante a construção da primeira base de conhecimento (RAG).
-- Foram identificadas três possíveis personas:
+- Foram identificadas duas possíveis personas:
   - **Utilizador inexperiente**, que apenas descreve o objetivo (ex.: "quero uma rede 5G de baixa latência").
   - **Utilizador experiente**, que pretende um deployment rápido e com parâmetros concretos (ex.: core Open5GS com 10 UEs e 5 slices).
 - Por agora, o único requisito conhecido é a interação através de linguagem natural; os restantes requisitos terão de ser levantados.
