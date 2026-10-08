@@ -29,6 +29,11 @@ sidebar_custom_props:
 ### Supervisor
 - Daniel Corujo
 
+### ATNoG
+- Paulo Cunha
+- Tiago Barros
+- David Santos
+
 ### Membros da equipa
 - Filipe Nogueira
 - Francisco Santos
