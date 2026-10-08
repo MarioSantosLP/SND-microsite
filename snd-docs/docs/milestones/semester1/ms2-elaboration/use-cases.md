@@ -20,3 +20,11 @@ sidebar_position: 1
 | UC13 | Reopen Saved Network | The user opens one of their saved networks to look at it again, change it, or build it again. |
 | UC14 | Redeploy Saved Network | The user builds a saved network again exactly as it was. SND reuses the saved plan instead of generating a new one, so the result is the same network as before. |
 | UC15 | Update Knowledge Base | An administrator adds or updates the documentation SND reads when planning networks, for example after a new Open5GS version. |
+
+## Use Case Diagram
+
+<img
+  src={require('@site/static/img/ms2-elaboration/use-cases.png').default}
+  alt="Use Case Diagram"
+  style={{display: 'block', margin: '0 auto', width: '100%', maxWidth: '810px'}}
+/>
