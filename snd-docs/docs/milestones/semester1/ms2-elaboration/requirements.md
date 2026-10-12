@@ -3,6 +3,10 @@ title: Requirements
 sidebar_position: 3
 ---
 
+## Approach
+
+To gather the requirements, we met with the researchers at ATNoG, the people SND is meant for, who will use it on their 5G testbed. In that meeting we discussed who would use the platform, how they would interact with it and what they would expect from it. From that discussion we identified the actors and use cases, and from the use cases we wrote the functional and non-functional requirements. The first version was then reviewed in an iteration review, and the problems found were corrected in the version below.
+
 ## Functional Requirements
 
 | ID | Description |
@@ -25,22 +29,22 @@ sidebar_position: 3
 | FR16 | The system shall present the revised NetworkSpec to the user for review before deployment, showing what changed from the previous version. |
 | FR17 | The system shall allow multiple refinement rounds for each network request, up to a configurable limit. |
 | FR18 | The system shall require explicit user confirmation of the exact NetworkSpec version shown before starting deployment. |
-| FR19 | The system shall generate the Open5GS and UERANSIM configuration files from a validated NetworkSpec. |
+| FR19 | The system shall generate the configuration files from a validated NetworkSpec. |
 | FR20 | The system shall allow users to obtain the generated configuration files without deploying the network. |
 | FR21 | The system shall deploy a validated and user-approved network to the target infrastructure. |
 | FR22 | The system shall configure and start the required network components after infrastructure deployment. |
 | FR23 | The system shall perform runtime checks after deployment to determine whether required network components and interactions are operational. |
 | FR24 | If the runtime checks fail because of the NetworkSpec or the configuration, the system shall fix it and ask the user for confirmation before deploying it. |
-| FR25 | If creating or configuring the VMs fails, the system shall retry up to a configurable limit, then delete the resources it created and tell the user. |
+| FR25 | If creating or configuring the infrastructure resources fails, the system shall retry up to a configurable limit, then delete the resources it created and tell the user. |
 | FR26 | The system shall report deployment status, including the state of UE registration and basic UE data connectivity where applicable. |
-| FR27 | The system shall allow users to stop a running network and delete its VMs, freeing their resources. |
+| FR27 | The system shall allow users to stop a running network and delete its infrastructure resources, freeing them for other deployments. |
 | FR28 | The system shall store the user request, NetworkSpec and associated generated configuration for later reuse when the user chooses to save a network. |
 | FR29 | The system shall allow a user to load a previously saved network. |
 | FR30 | The system shall allow a previously saved network to be validated and redeployed after user confirmation, reusing the saved NetworkSpec without generating it again. |
 | FR31 | The system shall allow each user to see and manage only their own networks. |
-| FR32 | The system shall allow only administrators to update the technical knowledge base for the supported Open5GS version. |
+| FR32 | The system shall allow only administrators to update the technical knowledge base for the supported network technologies. |
 | FR33 | The system shall update the RAG index automatically when the knowledge base changes. |
-| FR34 | The system shall persistently track each deployment's status, allocated resources, virtual machines, and associated user and NetworkSpec throughout the deployment process. |
+| FR34 | The system shall persistently track each deployment's status, allocated resources, nodes, and associated user and NetworkSpec throughout the deployment process. |
 
 ## Non-Functional Requirements
 
@@ -53,13 +57,14 @@ sidebar_position: 3
 | NFR05 | Usability | The system shall provide clear and understandable error messages to users. |
 | NFR06 | Usability | The system shall provide clear feedback about the progress and result of network deployments. |
 | NFR07 | Usability | A user without prior knowledge of Open5GS and UERANSIM configuration shall be able to create, review and deploy a network using natural-language interaction and the provided user interface. |
-| NFR08 | Reliability | A failed deployment shall not affect other deployments or saved networks. |
-| NFR09 | Maintainability | The system shall be organized into separate components with clearly defined responsibilities. |
-| NFR10 | Extensibility | The system shall allow new network technologies or deployment mechanisms to be added without major changes to the existing system. |
-| NFR11 | Interoperability | System components shall interact with external systems and virtualized infrastructure through well-defined interfaces and data formats. |
-| NFR12 | Recoverability | If the system crashes or restarts during a deployment, it shall detect the unfinished deployment upon restart, delete any VMs created for it, release its allocated IP addresses, and mark the deployment as failed. |
-| NFR13 | Logging | The system shall keep logs of deployment operations and errors for troubleshooting purposes. |
-| NFR14 | Compatibility | The system shall maintain compatibility with the supported versions of Open5GS and UERANSIM. |
-| NFR15 | Data Integrity | Saved network configurations and deployment information shall remain consistent and correctly associated. |
-| NFR16 | Performance | Long-running planning and deployment operations shall not prevent the user from using the interface, and their progress shall remain available if the user leaves and returns to the application. |
-| NFR17 | Resource Usage | The system shall only allocate infrastructure resources within the Proxmox resource pool assigned to it. |
+| NFR08 | Performance | Long-running planning and deployment operations shall not prevent the user from using the interface, and their progress shall remain available if the user leaves and returns to the application. |
+| NFR09 | Reliability | A failed deployment shall not affect other deployments or saved networks. |
+| NFR10 | Reliability | The system shall prevent concurrent deployment operations from allocating conflicting infrastructure resources. |
+| NFR11 | Recoverability | The system shall detect interrupted deployment operations after a crash or restart and recover or safely terminate them, ensuring that allocated resources are consistently tracked and released when no longer required. |
+| NFR12 | Logging | The system shall keep logs of deployment operations and errors for troubleshooting purposes. |
+| NFR13 | Data Integrity | Saved network configurations and deployment information shall remain consistent and correctly associated. |
+| NFR14 | Resource Usage | The system shall allocate infrastructure resources only within the resource pools or environments explicitly assigned to it, respecting the resource limits and permissions of each deployment platform. |
+| NFR15 | Maintainability | The system shall be organized into separate components with clearly defined responsibilities. |
+| NFR16 | Extensibility | The system shall allow new network technologies or deployment mechanisms to be added without major changes to the existing system. |
+| NFR17 | Interoperability | System components shall interact with external systems and virtualized infrastructure through well-defined interfaces and data formats. |
+| NFR18 | Compatibility | The system shall maintain compatibility with the supported versions of network technologies and deployment platforms provided through its plugins. |

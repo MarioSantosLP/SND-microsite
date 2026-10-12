@@ -1,10 +1,10 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
-import { Flag as IconFlag, MessagesSquare as IconMeetings, ArrowRight as IconArrow } from 'lucide-react';
+import { Flag as IconFlag, MessagesSquare as IconMeetings, CalendarDays as IconCalendar, ArrowRight as IconArrow } from 'lucide-react';
 import styles from './styles.module.css';
 
 // Move `current` forward as the project progresses.
-const current = 1;
+const current = 2;
 const milestones = [1, 2, 3, 4];
 
 const sections = [
@@ -19,6 +19,12 @@ const sections = [
     desc: 'Meeting minutes, decisions and project discussion.',
     to: '/docs/meetings',
     Icon: IconMeetings,
+  },
+  {
+    title: 'Calendar',
+    desc: 'Where the project stands and the plan for the rest of the semester.',
+    to: '/docs/calendar',
+    Icon: IconCalendar,
   },
 ];
 
