@@ -3,6 +3,10 @@ title: Requirements
 sidebar_position: 3
 ---
 
+## Approach
+
+To gather the requirements, we met with the researchers at ATNoG, the people SND is meant for, who will use it on their 5G testbed. In that meeting we discussed who would use the platform, how they would interact with it and what they would expect from it. From that discussion we identified the actors and use cases, and from the use cases we wrote the functional and non-functional requirements. The first version was then reviewed in an iteration review, and the problems found were corrected in the version below.
+
 ## Functional Requirements
 
 | ID | Description |
