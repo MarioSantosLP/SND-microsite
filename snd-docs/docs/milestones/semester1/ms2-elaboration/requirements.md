@@ -25,22 +25,22 @@ sidebar_position: 3
 | FR16 | The system shall present the revised NetworkSpec to the user for review before deployment, showing what changed from the previous version. |
 | FR17 | The system shall allow multiple refinement rounds for each network request, up to a configurable limit. |
 | FR18 | The system shall require explicit user confirmation of the exact NetworkSpec version shown before starting deployment. |
-| FR19 | The system shall generate the Open5GS and UERANSIM configuration files from a validated NetworkSpec. |
+| FR19 | The system shall generate the configuration files from a validated NetworkSpec. |
 | FR20 | The system shall allow users to obtain the generated configuration files without deploying the network. |
 | FR21 | The system shall deploy a validated and user-approved network to the target infrastructure. |
 | FR22 | The system shall configure and start the required network components after infrastructure deployment. |
 | FR23 | The system shall perform runtime checks after deployment to determine whether required network components and interactions are operational. |
 | FR24 | If the runtime checks fail because of the NetworkSpec or the configuration, the system shall fix it and ask the user for confirmation before deploying it. |
-| FR25 | If creating or configuring the VMs fails, the system shall retry up to a configurable limit, then delete the resources it created and tell the user. |
+| FR25 | If creating or configuring the infrastructure resources fails, the system shall retry up to a configurable limit, then delete the resources it created and tell the user. |
 | FR26 | The system shall report deployment status, including the state of UE registration and basic UE data connectivity where applicable. |
-| FR27 | The system shall allow users to stop a running network and delete its VMs, freeing their resources. |
+| FR27 | The system shall allow users to stop a running network and delete its infrastructure resources, freeing them for other deployments. |
 | FR28 | The system shall store the user request, NetworkSpec and associated generated configuration for later reuse when the user chooses to save a network. |
 | FR29 | The system shall allow a user to load a previously saved network. |
 | FR30 | The system shall allow a previously saved network to be validated and redeployed after user confirmation, reusing the saved NetworkSpec without generating it again. |
 | FR31 | The system shall allow each user to see and manage only their own networks. |
-| FR32 | The system shall allow only administrators to update the technical knowledge base for the supported Open5GS version. |
+| FR32 | The system shall allow only administrators to update the technical knowledge base for the supported network technologies. |
 | FR33 | The system shall update the RAG index automatically when the knowledge base changes. |
-| FR34 | The system shall persistently track each deployment's status, allocated resources, virtual machines, and associated user and NetworkSpec throughout the deployment process. |
+| FR34 | The system shall persistently track each deployment's status, allocated resources, nodes, and associated user and NetworkSpec throughout the deployment process. |
 
 ## Non-Functional Requirements
 
