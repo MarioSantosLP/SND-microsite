@@ -1,6 +1,6 @@
 ---
 title: Accessibility Fixes
-sidebar_position: 4
+sidebar_position: 7
 ---
 
 What we changed in the frontend for each problem in the [accessibility matrix](./accessibility-audit.md#accessibility-matrix), and the results of running the tests again.

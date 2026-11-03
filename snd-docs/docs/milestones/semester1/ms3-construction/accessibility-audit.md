@@ -1,6 +1,6 @@
 ---
 title: Accessibility Audit
-sidebar_position: 3
+sidebar_position: 6
 ---
 
 The results of the audit described in [Accessibility Approach](./accessibility-approach.md): what already worked, what the automatic tools found, and the accessibility matrix with every problem found, screen by screen.
