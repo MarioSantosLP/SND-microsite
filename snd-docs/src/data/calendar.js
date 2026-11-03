@@ -3,9 +3,9 @@
 // and rewrite `status.summary`.
 
 export const status = {
-  updated: '12 Oct 2026',
-  milestone: 2,
-  summary: 'Elaboration is done. Requirements, use cases, the domain model and the architecture are finished and the architecture has been validated. Next is the MS2 presentation.',
+  updated: '03 Nov 2026',
+  milestone: 4,
+  summary: 'MS3 is done: the legal requirements (GDPR, software licensing, sector regulations, terms and conditions) are documented and the interface prototype was audited against WCAG 2.2 AA and fixed. Next is the MVP: LLM integration, the Open5GS knowledge base and the 5G network data model.',
 };
 
 export const entries = [
@@ -37,11 +37,12 @@ export const entries = [
   {
     phase: 'Construction',
     items: [
-      { title: 'Accessibility Requirements & User Interface Design', from: '14 Oct', to: '03 Nov' },
-      { title: 'Interface Prototype & Usability/Accessibility Evaluation', from: '14 Oct', to: '03 Nov' },
+      { title: 'Legal Requirements (GDPR, Licensing, Regulations, T&C)', from: '14 Oct', to: '03 Nov', done: true },
+      { title: 'Accessibility Requirements & User Interface Design', from: '14 Oct', to: '03 Nov', done: true },
+      { title: 'Interface Prototype & Usability/Accessibility Evaluation', from: '14 Oct', to: '03 Nov', done: true },
     ],
   },
-  { milestone: 'MS3', title: 'Digital Accessibility and Usability', from: '03 Nov', to: '10 Nov' },
+  { milestone: 'MS3', title: 'Legal Requirements and Digital Accessibility', from: '03 Nov', to: '10 Nov' },
   {
     phase: 'Construction',
     items: [
