@@ -1,6 +1,6 @@
 ---
 title: GDPR
-sidebar_position: 5
+sidebar_position: 1
 ---
 
 The table below summarises the personal data processed by SND, the purpose of each item and the measures planned to comply with the General Data Protection Regulation (GDPR).

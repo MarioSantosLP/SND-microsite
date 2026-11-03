@@ -1,7 +1,7 @@
 ---
 title: Sector-Specific Regulations and Standards
 sidebar_label: Sector Regulations
-sidebar_position: 6
+sidebar_position: 3
 ---
 
 The regulations and standards that apply to SND's domain, and how the project complies with or adapts to each of them. SND sits between private mobile networking and automated cloud orchestration, so three areas apply: telecommunications regulation, technical telecom standards, and AI governance.
@@ -45,5 +45,5 @@ Under the EU AI Act, SND is a **minimal-risk** AI system. It works as a technica
 
 Following the human oversight principle of Article 14 and a human-in-the-loop approach, SND prevents problems caused by model hallucinations or configuration drift:
 
-- As defined in the Terms of Service, no deployment, network teardown or automatic corrective action after a failure runs on its own.
+- As defined in the [Terms and Conditions](./terms-and-conditions.md), no deployment, network teardown or automatic corrective action after a failure runs on its own.
 - Every generated parameter and topology is shown to an authorised human operator, who must review and approve it before any change is applied to the infrastructure.
