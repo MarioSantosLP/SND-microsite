@@ -22,3 +22,12 @@ The third-party software, libraries and AI models used in SND, with the licence 
 | iperf3 | BSD-3-Clause | Permissive; commercial use and redistribution allowed with notices. |
 | Qwen3.8-Flash-Next | Qwen Community License 1.0 | Custom licence; commercial use has specific conditions. |
 | Qwen3-Embedding-4B | Apache 2.0 | Permissive; commercial use and modification allowed with the required notices. |
+
+## Intellectual Property and Compliance
+
+- **GPL / AGPL.** Check the obligations if covered code is modified or redistributed. AGPL may require giving network users access to the source of modified versions.
+- **AI model terms.** Verify the NuExtract version and review the Qwen3.8-Flash-Next Community License 1.0, including its conditions for commercial services.
+- **RAG documentation.** Verify reuse permissions for the external manuals, API documentation and examples added to the knowledge base.
+- **Compliance checklist.** Track versions and licences, keep copyright notices, and document modifications and distribution.
+
+Integrating with these tools through their APIs does not automatically make SND's own, separate code GPL or AGPL.
