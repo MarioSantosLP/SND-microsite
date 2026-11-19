@@ -11,46 +11,46 @@ sidebar_custom_props:
 
 # Minute 2
 
-| **Data** | **Horário** | **Método** |
-|:---------|:------------|:-----------|
-| 2026-09-24 | 14:30 – 17:00 | Presencial |
+| **Date** | **Time** | **Method** |
+|:---------|:---------|:-----------|
+| 2026-09-24 | 14:30 – 17:00 | In person |
 
-## Participantes
+## Participants
 
-| **Nome** | **Função** |
-|:---------|:-----------|
-| Filipe Nogueira | Membro da equipa |
-| Francisco Santos | Membro da equipa |
-| João Morais | Membro da equipa |
-| Mario Santos | Membro da equipa |
-| Samuel Ramos | Membro da equipa |
+| **Name** | **Role** |
+|:---------|:---------|
+| Filipe Nogueira | Team member |
+| Francisco Santos | Team member |
+| João Morais | Team member |
+| Mario Santos | Team member |
+| Samuel Ramos | Team member |
 
 ### Supervisor
-- Daniel Corujo 
+- Daniel Corujo
 
 ### ATNoG
 - Paulo Cunha
 - Tiago Barros
 - David Santos
 
-### Membros da equipa
+### Team members
 - Filipe Nogueira
 - Francisco Santos
 - João Morais
 - Mario Santos
 - Samuel Ramos
 
-## Assuntos discutidos
-- Definição do âmbito geral do projeto.
-- Definição e distribuição das tarefas.
-- Elaboração do calendário do projeto.
-- Preparação do trabalho necessário para a MS1.
+## Topics discussed
+- Definition of the overall project scope.
+- Definition and assignment of tasks.
+- Drafting of the project calendar.
+- Preparation of the work required for MS1.
 
-## Principais conclusões
-- O âmbito geral do projeto ficou definido.
-- As tarefas e o calendário do projeto ficaram estabelecidos.
-- Ficou concluída a maior parte do trabalho necessário para a MS1.
+## Key conclusions
+- The overall project scope was defined.
+- The project tasks and calendar were established.
+- Most of the work required for MS1 was completed.
 
 ## TODO
-- Desenvolver o website do projeto
-- Preparar a apresentação (PowerPoint) da MS1
+- Develop the project website
+- Prepare the MS1 presentation (PowerPoint)

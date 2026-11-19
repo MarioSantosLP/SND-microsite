@@ -11,19 +11,19 @@ sidebar_custom_props:
 
 # Minute 5
 
-| **Data** | **Horário** | **Método** |
-|:---------|:------------|:-----------|
-| 2026-10-08 | 14:30 – 17:00 | Presencial |
+| **Date** | **Time** | **Method** |
+|:---------|:---------|:-----------|
+| 2026-10-08 | 14:30 – 17:00 | In person |
 
-## Participantes
+## Participants
 
-| **Nome** | **Função** |
-|:---------|:-----------|
-| Filipe Nogueira | Membro da equipa |
-| Francisco Santos | Membro da equipa |
-| João Morais | Membro da equipa |
-| Mario Santos | Membro da equipa |
-| Samuel Ramos | Membro da equipa |
+| **Name** | **Role** |
+|:---------|:---------|
+| Filipe Nogueira | Team member |
+| Francisco Santos | Team member |
+| João Morais | Team member |
+| Mario Santos | Team member |
+| Samuel Ramos | Team member |
 
 ### Supervisor
 - Daniel Corujo
@@ -33,26 +33,26 @@ sidebar_custom_props:
 - Tiago Barros
 - David Santos
 
-### Membros da equipa
+### Team members
 - Filipe Nogueira
 - Francisco Santos
 - João Morais
 - Mario Santos
 - Samuel Ramos
 
-## Assuntos discutidos
-- Revisão do trabalho realizado nesta iteração.
-- Problemas identificados na arquitetura do sistema.
-- Problemas identificados nos requisitos funcionais e não funcionais.
-- Formas de melhorar a arquitetura e a stack tecnológica, tema que ocupou a maior parte da reunião.
-- Construção dos mockups no Figma.
+## Topics discussed
+- Review of the work done in this iteration.
+- Issues identified in the system architecture.
+- Issues identified in the functional and non-functional requirements.
+- Ways to improve the architecture and the tech stack, which took up most of the meeting.
+- Building the mockups in Figma.
 
-## Principais conclusões
-- Foram identificados problemas na arquitetura, nos requisitos funcionais e nos requisitos não funcionais, que terão de ser corrigidos.
-- A equipa discutiu alternativas para melhorar a arquitetura e a stack tecnológica.
-- A maior parte dos mockups foi construída no Figma.
+## Key conclusions
+- Issues were identified in the architecture and in the functional and non-functional requirements, and they will have to be fixed.
+- The team discussed alternatives to improve the architecture and the tech stack.
+- Most of the mockups were built in Figma.
 
 ## TODO
-- Corrigir a arquitetura do sistema e a stack tecnológica
-- Rever os requisitos funcionais e não funcionais
-- Concluir os mockups no Figma
+- Fix the system architecture and the tech stack
+- Review the functional and non-functional requirements
+- Finish the mockups in Figma

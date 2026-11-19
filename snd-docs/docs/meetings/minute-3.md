@@ -11,54 +11,54 @@ sidebar_custom_props:
 
 # Minute 3
 
-| **Data** | **Horário** | **Método** |
-|:---------|:------------|:-----------|
-| 2026-09-30 | 15:10 – 16:00 | Presencial |
+| **Date** | **Time** | **Method** |
+|:---------|:---------|:-----------|
+| 2026-09-30 | 15:10 – 16:00 | In person |
 
-## Participantes
+## Participants
 
-| **Nome** | **Função** |
-|:---------|:-----------|
+| **Name** | **Role** |
+|:---------|:---------|
 | Paulo Cunha | ATNoG |
 | Tiago Barros | ATNoG |
 | David Santos | ATNoG |
-| Francisco Santos | Membro da equipa |
-| João Morais | Membro da equipa |
-| Mario Santos | Membro da equipa |
-| Samuel Ramos | Membro da equipa |
+| Francisco Santos | Team member |
+| João Morais | Team member |
+| Mario Santos | Team member |
+| Samuel Ramos | Team member |
 
 ### Supervisor
-- Daniel Corujo 
+- Daniel Corujo
 
 ### ATNoG
 - Paulo Cunha
 - Tiago Barros
 - David Santos
 
-### Membros da equipa
+### Team members
 - Filipe Nogueira
 - Francisco Santos
 - João Morais
 - Mario Santos
 - Samuel Ramos
 
-## Assuntos discutidos
-- Trabalho a realizar na fase inicial do projeto.
-- Implementação e compreensão de redes 5G com **Open5GS** ou **free5GC**.
-- Possíveis personas do sistema e forma de levantar os requisitos.
-- Discussão sobre o trabalho do Paulo Cunha numa interface gráfica para a execução de experiências no testbed, com o qual o projeto poderá interagir numa fase posterior.
-- Arquitetura do sistema e recursos disponíveis para a equipa.
+## Topics discussed
+- Work to be carried out in the initial phase of the project.
+- Deploying and understanding 5G networks with **Open5GS** or **free5GC**.
+- Possible system personas and how to gather the requirements.
+- Discussion of Paulo Cunha's work on a graphical interface for running experiments on the testbed, which the project may interact with at a later stage.
+- System architecture and resources available to the team.
 
-## Principais conclusões
-- Nesta fase inicial, a equipa deverá focar-se em implementar e compreender redes 5G, utilizando o Open5GS ou o free5GC.
-- Deverá ser utilizada a versão mais recente do core escolhido, mantendo-a fixa durante a construção da primeira base de conhecimento (RAG).
-- Foram identificadas duas possíveis personas:
-  - **Utilizador inexperiente**, que apenas descreve o objetivo (ex.: "quero uma rede 5G de baixa latência").
-  - **Utilizador experiente**, que pretende um deployment rápido e com parâmetros concretos (ex.: core Open5GS com 10 UEs e 5 slices).
-- Por agora, o único requisito conhecido é a interação através de linguagem natural; os restantes requisitos terão de ser levantados.
-- As redes serão instanciadas em máquinas virtuais, e será atribuído à equipa um modelo de linguagem de pequena dimensão, provavelmente com uma GPU dedicada.
+## Key conclusions
+- In this initial phase, the team should focus on deploying and understanding 5G networks using Open5GS or free5GC.
+- The latest version of the chosen core should be used and kept fixed while building the first knowledge base (RAG).
+- Two possible personas were identified:
+  - **Inexperienced user**, who only describes the goal (e.g. "I want a low-latency 5G network").
+  - **Experienced user**, who wants a fast deployment with concrete parameters (e.g. an Open5GS core with 10 UEs and 5 slices).
+- For now, the only known requirement is natural-language interaction; the remaining requirements still have to be gathered.
+- Networks will be instantiated on virtual machines, and the team will be given a small language model, probably with a dedicated GPU.
 
 ## TODO
-- Implementar redes 5G com Open5GS ou free5GC
-- Definir as personas e levantar os requisitos
-- Definir a arquitetura do sistema
+- Deploy 5G networks with Open5GS or free5GC
+- Define the personas and gather the requirements
+- Define the system architecture
