@@ -11,21 +11,21 @@ sidebar_custom_props:
 
 # Minute 6
 
-| **Data** | **Horário** | **Método** |
-|:---------|:------------|:-----------|
-| 2026-10-09 | 13:10 – 14:20 | Presencial |
+| **Date** | **Time** | **Method** |
+|:---------|:---------|:-----------|
+| 2026-10-09 | 13:10 – 14:20 | In person |
 
-## Participantes
+## Participants
 
-| **Nome** | **Função** |
-|:---------|:-----------|
+| **Name** | **Role** |
+|:---------|:---------|
 | Daniel Corujo | Supervisor |
 | Paulo Cunha | ATNoG |
-| Filipe Nogueira | Membro da equipa |
-| Francisco Santos | Membro da equipa |
-| João Morais | Membro da equipa |
-| Mario Santos | Membro da equipa |
-| Samuel Ramos | Membro da equipa |
+| Filipe Nogueira | Team member |
+| Francisco Santos | Team member |
+| João Morais | Team member |
+| Mario Santos | Team member |
+| Samuel Ramos | Team member |
 
 ### Supervisor
 - Daniel Corujo
@@ -35,21 +35,21 @@ sidebar_custom_props:
 - Tiago Barros
 - David Santos
 
-### Membros da equipa
+### Team members
 - Filipe Nogueira
 - Francisco Santos
 - João Morais
 - Mario Santos
 - Samuel Ramos
 
-## Assuntos discutidos
-- Continuação da discussão sobre a arquitetura do sistema.
-- Definição dos objetivos do projeto e da forma como se traduzem em termos de arquitetura.
-- Criação de um canal de comunicação da equipa no Slack.
+## Topics discussed
+- Continued discussion of the system architecture.
+- Definition of the project goals and how they translate into the architecture.
+- Creation of a team communication channel on Slack.
 
-## Principais conclusões
-- A equipa, com o supervisor e o ATNoG, discutiu tudo o que pretende alcançar com o projeto e mapeou esses objetivos na arquitetura do sistema.
-- Foi criado o espaço de comunicação da equipa no Slack.
+## Key conclusions
+- The team, together with the supervisor and ATNoG, discussed everything it aims to achieve with the project and mapped those goals onto the system architecture.
+- The team's Slack communication space was created.
 
 ## TODO
-- Atualizar a arquitetura do sistema com base no que foi discutido
+- Update the system architecture based on what was discussed

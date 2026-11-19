@@ -11,18 +11,18 @@ sidebar_custom_props:
 
 # Minute 9
 
-| **Data** | **Horário** | **Método** |
-|:---------|:------------|:-----------|
-| 2026-11-17 | 15:00 – 15:20 | Presencial |
+| **Date** | **Time** | **Method** |
+|:---------|:---------|:-----------|
+| 2026-11-17 | 15:00 – 15:20 | In person |
 
-## Participantes
+## Participants
 
-| **Nome** | **Função** |
-|:---------|:-----------|
-| Filipe Nogueira | Membro da equipa |
-| Francisco Santos | Membro da equipa |
-| João Morais | Membro da equipa |
-| Samuel Ramos | Membro da equipa |
+| **Name** | **Role** |
+|:---------|:---------|
+| Filipe Nogueira | Team member |
+| Francisco Santos | Team member |
+| João Morais | Team member |
+| Samuel Ramos | Team member |
 
 ### Supervisor
 - Daniel Corujo
@@ -33,20 +33,20 @@ sidebar_custom_props:
 - David Santos
 - Diogo Silva
 
-### Membros da equipa
+### Team members
 - Filipe Nogueira
 - Francisco Santos
 - João Morais
 - Mario Santos
 - Samuel Ramos
 
-## Assuntos discutidos
-- Ponto de situação do trabalho de cada membro da equipa.
-- Estado de cada uma das tarefas atribuídas.
+## Topics discussed
+- Status update on each team member's work.
+- Progress of each assigned task.
 
-## Principais conclusões
-- Cada membro reportou o que está a fazer e em que estado se encontra a sua tarefa.
-- A equipa ficou com uma visão atualizada do progresso geral do projeto.
+## Key conclusions
+- Each member reported what they are working on and the current state of their task.
+- The team now has an up-to-date view of the overall project progress.
 
 ## TODO
-- Continuar o desenvolvimento das tarefas atribuídas
+- Keep working on the assigned tasks

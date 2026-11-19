@@ -11,18 +11,18 @@ sidebar_custom_props:
 
 # Minute 8
 
-| **Data** | **Horário** | **Método** |
-|:---------|:------------|:-----------|
+| **Date** | **Time** | **Method** |
+|:---------|:---------|:-----------|
 | 2026-11-11 | 16:00 – 17:00 | Online |
 
-## Participantes
+## Participants
 
-| **Nome** | **Função** |
-|:---------|:-----------|
-| Filipe Nogueira | Membro da equipa |
-| Francisco Santos | Membro da equipa |
-| Mario Santos | Membro da equipa |
-| Samuel Ramos | Membro da equipa |
+| **Name** | **Role** |
+|:---------|:---------|
+| Filipe Nogueira | Team member |
+| Francisco Santos | Team member |
+| Mario Santos | Team member |
+| Samuel Ramos | Team member |
 
 ### Supervisor
 - Daniel Corujo
@@ -33,24 +33,24 @@ sidebar_custom_props:
 - David Santos
 - Diogo Silva
 
-### Membros da equipa
+### Team members
 - Filipe Nogueira
 - Francisco Santos
 - João Morais
 - Mario Santos
 - Samuel Ramos
 
-## Assuntos discutidos
-- Definição das tarefas a realizar na próxima fase do projeto.
-- Divisão das tarefas pelos membros da equipa.
-- Elaboração de um pequeno roadmap.
-- Definição do MVP (Minimum Viable Product).
+## Topics discussed
+- Definition of the tasks for the next phase of the project.
+- Assignment of the tasks among the team members.
+- Drafting of a short roadmap.
+- Definition of the MVP (Minimum Viable Product).
 
-## Principais conclusões
-- As tarefas ficaram definidas e distribuídas pelos membros da equipa.
-- Foi elaborado um pequeno roadmap para orientar o desenvolvimento.
-- O MVP do projeto ficou definido.
+## Key conclusions
+- The tasks were defined and assigned to the team members.
+- A short roadmap was drafted to guide development.
+- The project MVP was defined.
 
 ## TODO
-- Cada membro avançar com as tarefas que lhe foram atribuídas
-- Seguir o roadmap definido para chegar ao MVP
+- Each member moves forward with their assigned tasks
+- Follow the roadmap to reach the MVP

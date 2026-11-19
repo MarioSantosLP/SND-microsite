@@ -11,22 +11,22 @@ sidebar_custom_props:
 
 # Minute 7
 
-| **Data** | **Horário** | **Método** |
-|:---------|:------------|:-----------|
-| 2026-10-23 | 13:00 – 13:45 | Presencial |
+| **Date** | **Time** | **Method** |
+|:---------|:---------|:-----------|
+| 2026-10-23 | 13:00 – 13:45 | In person |
 
-## Participantes
+## Participants
 
-| **Nome** | **Função** |
-|:---------|:-----------|
+| **Name** | **Role** |
+|:---------|:---------|
 | Daniel Corujo | Supervisor |
 | Paulo Cunha | ATNoG |
 | Diogo Silva | ATNoG |
-| Filipe Nogueira | Membro da equipa |
-| Francisco Santos | Membro da equipa |
-| João Morais | Membro da equipa |
-| Mario Santos | Membro da equipa |
-| Samuel Ramos | Membro da equipa |
+| Filipe Nogueira | Team member |
+| Francisco Santos | Team member |
+| João Morais | Team member |
+| Mario Santos | Team member |
+| Samuel Ramos | Team member |
 
 ### Supervisor
 - Daniel Corujo
@@ -37,18 +37,18 @@ sidebar_custom_props:
 - David Santos
 - Diogo Silva
 
-### Membros da equipa
+### Team members
 - Filipe Nogueira
 - Francisco Santos
 - João Morais
 - Mario Santos
 - Samuel Ramos
 
-## Assuntos discutidos
-- Apresentação de uma componente desenvolvida pelo Diogo Silva que faz overlap com o nosso projeto.
-- Identificação das operações comuns aos dois trabalhos.
-- Possibilidade de unificar essas operações, para que passem a existir apenas uma vez.
+## Topics discussed
+- Presentation of a component developed by Diogo Silva that overlaps with our project.
+- Identification of the operations common to both projects.
+- Possibility of unifying those operations so that each exists only once.
 
-## Principais conclusões
-- Foram identificadas as operações em que os dois trabalhos se sobrepõem.
-- Foi discutida a forma de garantir que essas operações passem a ser uma só, partilhada pelos dois trabalhos.
+## Key conclusions
+- The operations where the two projects overlap were identified.
+- The team discussed how to ensure those operations become a single one, shared by both projects.

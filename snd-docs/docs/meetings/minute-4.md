@@ -11,18 +11,18 @@ sidebar_custom_props:
 
 # Minute 4
 
-| **Data** | **Horário** | **Método** |
-|:---------|:------------|:-----------|
-| 2026-10-01 | 14:30 – 17:00 | Presencial |
+| **Date** | **Time** | **Method** |
+|:---------|:---------|:-----------|
+| 2026-10-01 | 14:30 – 17:00 | In person |
 
-## Participantes
+## Participants
 
-| **Nome** | **Função** |
-|:---------|:-----------|
-| Francisco Santos | Membro da equipa |
-| João Morais | Membro da equipa |
-| Mario Santos | Membro da equipa |
-| Samuel Ramos | Membro da equipa |
+| **Name** | **Role** |
+|:---------|:---------|
+| Francisco Santos | Team member |
+| João Morais | Team member |
+| Mario Santos | Team member |
+| Samuel Ramos | Team member |
 
 ### Supervisor
 - Daniel Corujo
@@ -32,32 +32,32 @@ sidebar_custom_props:
 - Tiago Barros
 - David Santos
 
-### Membros da equipa
+### Team members
 - Filipe Nogueira
 - Francisco Santos
 - João Morais
 - Mario Santos
 - Samuel Ramos
 
-## Assuntos discutidos
-- Abordagem geral ao desenvolvimento do projeto.
-- Identificação dos atores do sistema.
-- Definição dos casos de uso.
-- Levantamento dos requisitos.
-- Workflow do agente, isto é, as etapas por que um pedido passa até estar concluído.
-- Arquitetura do sistema.
-- Abordagem para a criação dos mockups: Figma ou código estático.
+## Topics discussed
+- General approach to the development of the project.
+- Identification of the system actors.
+- Definition of the use cases.
+- Requirements gathering.
+- Agent workflow, i.e. the steps a request goes through until it is completed.
+- System architecture.
+- Approach for building the mockups: Figma or static code.
 
-## Principais conclusões
-- Os atores do sistema ficaram definidos.
-- Os casos de uso ficaram definidos.
-- Foi levantada parte dos requisitos.
-- Quanto à arquitetura, não ficou concluída, mas foi alcançada uma visão de alto nível do sistema: a equipa chegou a um entendimento comum sobre a forma como pretende estruturá-lo.
-- Os mockups serão feitos em código estático em vez de Figma, sobretudo por poderem ser reutilizados mais tarde no desenvolvimento.
+## Key conclusions
+- The system actors were defined.
+- The use cases were defined.
+- Part of the requirements were gathered.
+- The architecture was not finished, but a high-level view of the system was reached: the team came to a shared understanding of how it intends to structure it.
+- The mockups will be built in static code instead of Figma, mainly because they can be reused later during development.
 
 ## TODO
-- Concluir o levantamento dos requisitos
-- Detalhar e documentar a arquitetura do sistema
-- Elaborar um estado da arte detalhado
-- Pesquisar e testar o Open5GS e o free5GC
-- Desenvolver os mockups em código estático
+- Finish gathering the requirements
+- Detail and document the system architecture
+- Write a detailed state of the art
+- Research and test Open5GS and free5GC
+- Build the mockups in static code

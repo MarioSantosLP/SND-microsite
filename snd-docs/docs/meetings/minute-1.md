@@ -11,20 +11,20 @@ sidebar_custom_props:
 
 # Minute 1
 
-| **Data** | **Horário** | **Método** |
-|:---------|:------------|:-----------|
-| 2026-09-21 | 12:00 – 13:00 | Presencial |
+| **Date** | **Time** | **Method** |
+|:---------|:---------|:-----------|
+| 2026-09-21 | 12:00 – 13:00 | In person |
 
-## Participantes
+## Participants
 
-| **Nome** | **Função** |
-|:---------|:-----------|
+| **Name** | **Role** |
+|:---------|:---------|
 | Daniel Corujo | Supervisor |
-| Filipe Nogueira | Membro da equipa |
-| Francisco Santos | Membro da equipa |
-| João Morais | Membro da equipa |
-| Mario Santos | Membro da equipa |
-| Samuel Ramos | Membro da equipa |
+| Filipe Nogueira | Team member |
+| Francisco Santos | Team member |
+| João Morais | Team member |
+| Mario Santos | Team member |
+| Samuel Ramos | Team member |
 
 ### Supervisor
 - Daniel Corujo
@@ -34,23 +34,23 @@ sidebar_custom_props:
 - Tiago Barros
 - David Santos
 
-### Membros da equipa
+### Team members
 - Filipe Nogueira
 - Francisco Santos
 - João Morais
 - Mario Santos
 - Samuel Ramos
 
-## Assuntos discutidos
-- Apresentação geral do projeto e do problema a abordar.
-- Esclarecimento de conceitos e terminologia relevantes.
-- Apresentação da equipa da ATNOG.
+## Topics discussed
+- General presentation of the project and the problem to be addressed.
+- Clarification of relevant concepts and terminology.
+- Introduction of the ATNoG team.
 
-## Principais conclusões
-- A equipa deverá começar por compreender melhor o problema e o contexto técnico do projeto.
-- Será realizada investigação inicial sobre tecnologias relacionadas com redes 5G, nomeadamente **Open5GS** e **UERANSIM**.
-- Os membros da equipa deverão partilhar o conhecimento adquirido para alinhar a compreensão do problema e das possíveis abordagens.
+## Key conclusions
+- The team should start by gaining a better understanding of the problem and the technical context of the project.
+- Initial research will be carried out on 5G network technologies, namely **Open5GS** and **UERANSIM**.
+- Team members should share the knowledge they acquire to align their understanding of the problem and the possible approaches.
 
 ## TODO
-- Investigar Open5GS e UERANSIM
-- Compreender melhor o problema e os requisitos do projeto
+- Research Open5GS and UERANSIM
+- Better understand the problem and the project requirements

@@ -11,20 +11,20 @@ sidebar_custom_props:
 
 # Minute 10
 
-| **Data** | **Horário** | **Método** |
-|:---------|:------------|:-----------|
-| 2026-11-18 | 16:45 – 17:30 | Presencial |
+| **Date** | **Time** | **Method** |
+|:---------|:---------|:-----------|
+| 2026-11-18 | 16:45 – 17:30 | In person |
 
-## Participantes
+## Participants
 
-| **Nome** | **Função** |
-|:---------|:-----------|
+| **Name** | **Role** |
+|:---------|:---------|
 | Daniel Corujo | Supervisor |
-| Filipe Nogueira | Membro da equipa |
-| Francisco Santos | Membro da equipa |
-| João Morais | Membro da equipa |
-| Mario Santos | Membro da equipa |
-| Samuel Ramos | Membro da equipa |
+| Filipe Nogueira | Team member |
+| Francisco Santos | Team member |
+| João Morais | Team member |
+| Mario Santos | Team member |
+| Samuel Ramos | Team member |
 
 ### Supervisor
 - Daniel Corujo
@@ -35,25 +35,25 @@ sidebar_custom_props:
 - David Santos
 - Diogo Silva
 
-### Membros da equipa
+### Team members
 - Filipe Nogueira
 - Francisco Santos
 - João Morais
 - Mario Santos
 - Samuel Ramos
 
-## Assuntos discutidos
-- Esclarecimento de dúvidas sobre o MVP.
-- Recursos disponibilizados à equipa.
-- Forma de realizar a demo para a última apresentação.
-- Apresentação ao supervisor do progresso do trabalho.
+## Topics discussed
+- Questions about the MVP.
+- Resources made available to the team.
+- How to run the demo for the final presentation.
+- Presentation of the project's progress to the supervisor.
 
-## Principais conclusões
-- As dúvidas da equipa sobre o MVP foram esclarecidas.
-- Ficaram mais claros os recursos que estão disponíveis para o projeto.
-- Foi discutida a abordagem para a demo da última apresentação.
-- O supervisor ficou a par do estado atual do trabalho.
+## Key conclusions
+- The team's questions about the MVP were answered.
+- The resources available for the project became clearer.
+- The approach for the final presentation demo was discussed.
+- The supervisor was brought up to date on the current state of the work.
 
 ## TODO
-- Preparar a demo para a última apresentação
-- Continuar o desenvolvimento do MVP
+- Prepare the demo for the final presentation
+- Keep developing the MVP
